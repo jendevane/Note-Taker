@@ -29,5 +29,18 @@ router.post('/notes', (req, res) => {
     res.send(newNote);
 });
 
+router.delete('/notes/:id', (req, res) => {
+    let id = req.params.id;
+    // Get the existing notes
+    let notes = readNotes();
+
+    // Find and remove this one
+    notes = notes.filter(note => note.id !== id);
+
+    // Save
+    saveNotes(notes);
+
+    res.send();
+});
 
 module.exports = router;
