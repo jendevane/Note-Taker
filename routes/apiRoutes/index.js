@@ -1,5 +1,6 @@
 const router = require('express').Router();
 const fs = require('fs');
+const uniqid = require('uniqid');
 
 function readNotes() {
     return JSON.parse(fs.readFileSync('db/db.json'));
@@ -16,6 +17,7 @@ router.get('/notes', (req, res) => {
 });
 router.post('/notes', (req, res) => {
     let newNote = req.body;
+    newNote.id = uniqid();
 
     // Add this to the list of notes
     let notes = readNotes();
