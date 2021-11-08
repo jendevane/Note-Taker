@@ -10,4 +10,5 @@ This app is deployed to Heroku, and it uses Express.js and UNIQID.
 ADDING NOTE
 ![image](https://user-images.githubusercontent.com/87095302/140671192-17bb0392-3dac-4f90-9444-d6a25e0bc751.png)
 NOTE ADDED AND SAVED
-
+![image](https://user-images.githubusercontent.com/87095302/140671243-0dbbbfe9-a663-4134-ae46-cc89f6ad9e91.png)
+NOTE DELETED
