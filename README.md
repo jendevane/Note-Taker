@@ -8,4 +8,6 @@ This app is deployed to Heroku, and it uses Express.js and UNIQID.
 # Screenshots
 ![image](https://user-images.githubusercontent.com/87095302/140671134-42a14ea2-6b16-45eb-a5ee-303deda80ca8.png)
 ADDING NOTE
+![image](https://user-images.githubusercontent.com/87095302/140671192-17bb0392-3dac-4f90-9444-d6a25e0bc751.png)
+NOTE ADDED AND SAVED
 
